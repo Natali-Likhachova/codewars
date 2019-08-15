@@ -86,7 +86,7 @@ The first mission: let all elements in the array keep two decimal places(No need
 The second mission: Traversal arr, count the number of the element which smaller than n and return it.
 */
 
-/* Link: https://www.codewars.com/kata/training-js-number-15-methods-of-number-object-tofixed-toexponential-and-toprecision */
+/*  https://www.codewars.com/kata/training-js-number-15-methods-of-number-object-tofixed-toexponential-and-toprecision */
 
 
 // Long Solution
