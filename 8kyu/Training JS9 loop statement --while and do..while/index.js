@@ -1,7 +1,8 @@
 /*Training JS #9:
 loop statement --while and do..while
 
-If you want your code to do a lot of similar work, a loop statement is a good choice. For example, if we need to calculate the cumulative value from 1 to 10, we can write code like this:
+If you want your code to do a lot of similar work, a loop statement is a good choice. For example, if we need to
+calculate the cumulative value from 1 to 10, we can write code like this:
 
 function sum1_10(){
   return 1+2+3+4+5+6+7+8+9+10;
@@ -37,20 +38,25 @@ function sum1_100(){
   }while (num<=100)
   return sum;
 }
-The difference is, while judges the condition before perform code execution, do..while judges the condition after code run one time.
+The difference is, while judges the condition before perform code execution, do..while judges the condition after code
+run one time.
 
-Finally, it is worth mentioning: Do not forget to change the value of the variable (for conditional expressions), otherwise it will turn into an infinite loop.
+Finally, it is worth mentioning: Do not forget to change the value of the variable (for conditional expressions),
+otherwise it will turn into an infinite loop.
 
 Ok, lesson is over. Let us do some task with while.
 
 #Task
 Coding in function ```padIt```, function accept 2  parameters:
 
-1.```str```,  it's a string representing the string to pad, we need pad some ```"*"``` at leftside or rightside of ```str```
+1.```str```,  it's a string representing the string to pad, we need pad some ```"*"``` at leftside or rightside of
+```str```
 
 2.```n```, it's a number, how many times to pad the string.
 Behaviour
-You need to write a loop statement within the function that loops n times. Each time through the loop it will add one * to str, alternating on which side it is padded: the first time will add a * to the left side of str, the second time will add a * to the right side, and so on.
+You need to write a loop statement within the function that loops n times. Each time through the loop it will add one *
+to str, alternating on which side it is padded: the first time will add a * to the left side of str, the second time
+will add a * to the right side, and so on.
 
 Finally, return the padded string.*/
 
