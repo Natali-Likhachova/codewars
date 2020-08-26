@@ -27,7 +27,7 @@ function basicOp($op, $val1, $val2)
 }
 
 /* Sample Tests: */
-function basicOp($op, $val1, $val2)
+function basiccOp($op, $val1, $val2)
 {
   return eval("return {$val1}{$op}{$val2};");
 }
